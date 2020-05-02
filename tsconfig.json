@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@lib/common": ["src/lib"]
+    },
+    "types": ["reflect-metadata"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
